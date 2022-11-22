@@ -8,3 +8,17 @@ h1{
 p{
     color: #ffffff;
 }
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img2{
+    display: flex;
+}
+.spotify{
+    width: 40px;
+    height: 40px;
+}
