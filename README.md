@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
+- NOM : galmiche
+- PRÉNOM : dany
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/WjLa4NHelxTU1jzQa9NetN/Maquettes-projet-individuel-%E2%80%94-pr%C3%A9nom-NOM-(Copy)?node-id=802%3A878&t=JsduEQA8PeRGgKT4-1
 
 # Structure de départ pour le projet individuel.
 
