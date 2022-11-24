@@ -58,6 +58,7 @@
     transform: translateX(100vw);
     transition: all .4s;
     z-index: 1;
+    text-align: center;
 }
 
 .menu-open .menu {

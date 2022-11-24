@@ -1,5 +1,5 @@
 body{
-    background-color: #232323;
+    background-color: #5D389C;
 }
 h1{
     color: #ffffff;
@@ -16,11 +16,21 @@ img{
     max-width: 100%;
     height: auto;
 }
-.img2{
+.img2 {
     display: flex;
+    justify-content: center;
 }
 .spotify{
     width: 80px;
     height: 80px;
     margin: auto -5px;
+}
+.footer {
+    background-color: var(--beige-3);
+    color: var(--black);
+    font-family: var(--noto-serif);
+    padding-top: 28px;
+    padding-bottom: 30px;
+    display: block;
+
 }
