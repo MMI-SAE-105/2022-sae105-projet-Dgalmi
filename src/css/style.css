@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+
+/* Utils */
+@import "utils/variables.css";
+
 body{
+    font-family: var(--font-domine);
+    font-style: normal;
     background-color: #5D389C;
 }
 h1{
+    font-family: var(--font-domine);
     color: #ffffff;
     text-align: center;
 }
 p{
+    font-family: var(--font-domine);
     color: #ffffff;
+    font-size: 14px;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -16,9 +27,22 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+.img_1{
+    box-shadow: 2px 1px 4px 3px rgba(215, 181, 0, 0.4);
+    border-radius: 23px;
+    margin-left: -28px;
+}
 .img2 {
     display: flex;
     justify-content: center;
+}
+.img3 {
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+    box-shadow: 2px 1px 4px 3px rgba(215, 181, 0, 0.4);
+    border-radius: 23px;
 }
 .spotify{
     width: 80px;
@@ -33,4 +57,34 @@ img{
     padding-bottom: 30px;
     display: block;
 
+}
+.footerquestion {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    color: #fff ;
+    border-radius: 10px;
+    padding-top: 5px;
+    background-color: #6F6E8D;
+    padding-bottom: 5px;
+}
+
+.buttonfooter {
+    color: #fff ;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: #6F6E8D;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.footer_btnquestion {
+    margin-left: 5px;
+}
+
+.footer_LogoMMI {
+    scale: 10%;
 }
