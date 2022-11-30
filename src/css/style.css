@@ -81,10 +81,57 @@ img{
     
 }
 
-.footer_btnquestion {
+.footer__btnquestion {
     margin-left: 5px;
 }
+.footer__LogoMMI {
+    height: 80px;
+    width: 80px;
+}
+.footer__end {
+    display: flex;
+}
+.redirect {
+    display: flex;
+    justify-content: center;
+}
+.footer__mailto {
+    height: 50px;
+    width: 50px;
+}
+.imgLivre {
+        display: flex;
+        justify-content: center;
+        width: auto;
+}
+.dollar{
+    width: 100px;
+    height: 100px;
+}
+.buttonlivre {
+    color: #fff ;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: #6F6E8D;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;    
+}
+.contact {
+width: auto;
+height: auto;
+background: #6F6E8D;
+border-radius: 40px;
+}
+.txt__contact {
+    color: #fff;
+    padding-top: 5px;
+}
+.btnenvoyer__contact {
+    color: #000 ;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: #fff;
 
-.footer_LogoMMI {
-    scale: 10%;
+    
 }
