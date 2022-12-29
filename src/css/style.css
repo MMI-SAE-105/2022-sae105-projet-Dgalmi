@@ -13,6 +13,11 @@ h1{
     color: #ffffff;
     text-align: center;
 }
+h2{
+    font-family: var(--font-domine);
+    color: #ffffff;
+    text-align: center;
+}
 p{
     font-family: var(--font-domine);
     color: #ffffff;
@@ -30,10 +35,11 @@ img{
 
 .img_1{
     box-shadow: 2px 1px 4px 3px rgba(215, 181, 0, 0.4);
-    border-radius: 23px;
+    border-radius: 40px;
     margin-left: -28px;
 }
 .img2 {
+    
     display: flex;
     justify-content: center;
 }
@@ -43,6 +49,13 @@ img{
     margin: auto; 
     box-shadow: 2px 1px 4px 3px rgba(215, 181, 0, 0.4);
     border-radius: 23px;
+}
+.img3-1 {
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+    box-shadow: 2px 1px 4px 3px rgba(215, 181, 0, 0.4);
+    border-radius: 45px;
 }
 .spotify{
     width: 80px;
@@ -114,7 +127,7 @@ img{
     padding-top: 5px;
     background-color: #6F6E8D;
     padding-bottom: 5px;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
         
@@ -136,4 +149,60 @@ border-radius: 40px;
     background-color: #fff;
 
     
+}
+
+.pa_btn-art {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pa_btn-fig {
+    border: 3px solid;
+    border-color:black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+}
+
+.pa_btn-img {
+    width: 40vw;
+    border-radius: 15px 0px 0px 15px;
+    flex: none;
+}
+
+.pa_btn-title {
+    font-family: var(--font-domine);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    margin-top: 20px;
+    flex: auto;
+    text-align: left;
+}
+
+.pa_btn-text {
+    font-family: var(--font-domine);
+    font-style: normal;
+    font-size: 12px;
+    color: #000;
+    margin-top: 11px;
+    flex: auto;
+    text-align: left;
+    margin-right: 35px;
+}
+
+.pa_btn-plus {
+    font-family: var(--font-domine);
+    font-weight: bold;
+    font-size: 8px;
+    color: white;
+    text-align: right;
+    margin-right: 14px;
+}
+
+.pad {
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
