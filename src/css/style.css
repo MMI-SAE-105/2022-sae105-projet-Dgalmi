@@ -244,3 +244,25 @@ border-radius: 10px;
     margin-left:  170px;
     margin-bottom: 100px;
 }
+.cable {
+    width: 150px;
+    height: 100px;
+    margin-left: -98px;
+}
+.encadrement_glossaire {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #6F6E8D;
+    border-radius: 10px;
+    }
+    .carousel-item {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        margin-left: 1rem;
+    }
+    .carousel-items {
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+    }
