@@ -224,33 +224,6 @@ border-radius: 40px;
 .backtop {
     margin-left:  50px;
 }
-.film_gauche {
-    float: left;
-    margin-left:  10px;
-    width: 150px;
-    height: 200px;
-    margin-top: 30px;
-}
-.film_droite {
-    float: right;
-    margin-left:  50px;
-    width: 150px;
-    height: 200px;
-    margin-top: 30px;
-}
-.encadrement {
-padding-top: 100px;
-padding-bottom: 1000px;
-background-color: #6F6E8D;
-border-radius: 10px;
-}
-.texte_gauche {
-    margin-left:  90px;
-}
-.texte_droite {
-    margin-left:  170px;
-    margin-bottom: 100px;
-}
 .cable {
     width: 150px;
     height: 100px;
@@ -276,4 +249,19 @@ border-radius: 10px;
     a {
         color: rgba(255, 217, 0, 0.764);
       }
-  
+      .button_langue {
+        color: #fff ;
+        border-radius: 20px;
+        padding-top: 5px;
+        background-color: #6F6E8D;
+        padding-bottom: 5px;
+        margin-left: 295px;
+        margin-top: 5px;
+        
+    }
+    .autre_projet {
+        font-family: var(--font-domine);
+        font-size: 16px;
+        margin-left: 140px;
+        
+    }
